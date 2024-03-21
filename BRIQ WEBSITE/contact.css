@@ -1,0 +1,56 @@
+.contact-info-container {
+    background-color: #82f77e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(86, 249, 100, 0.1);
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.contact-info i {
+    font-size: 40px;
+    margin-right: 10px;
+    color: #02341d; /* Dark green */
+}
+
+.contact-info a {
+    color: #02341d; /* Dark green */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #ef5705; /* Orange */
+}
+
+.contact-info-container p {
+    font-size: 0.9rem;
+    color: black; 
+}
+
+footer {
+    position: fixed; /* Fix the footer at the bottom of the viewport */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width */
+    background-color: #82f77e; 
+    color: #02341d; /* Dark green text color */
+    padding: 20px; /* Padding for content inside the footer */
+    text-align: center; /* Center-align the text */
+}

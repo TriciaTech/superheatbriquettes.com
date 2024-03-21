@@ -1,0 +1,99 @@
+.products-page-title {
+    font-size: 4em; /* Large font size */
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff0000; 
+    /* Add a subtle shadow effect */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    /* Add a pulsating animation */
+    animation: pulsate 2s infinite alternate;
+}
+
+/* Define the pulsating animation */
+@keyframes pulsate {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+}
+
+/* Container for the products */
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+    grid-gap: 20px; /* Spacing between products */
+  }
+  
+  /* Individual product card */
+  .product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #b5bfa1; /* Beige background color */
+    background-image: radial-gradient(circle at 20% 50%, #1b6d29, transparent),
+                      radial-gradient(circle at 80% 30%, #163832, transparent); /* Dark green swirls */
+  }
+  
+  /* Product image */
+  .product-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Product title */
+  .product-title {
+    font-weight: bold;
+    font-size:x-large;
+    margin-top: 10px;
+    color: #000a0a; /* Dark green text color */
+  }
+  
+  /* Product description */
+  .product-description {
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 10px;
+    color: #02341d; /* Dark green text color */
+  }
+
+  .product-summary {
+    background-color: #f9f9f9;
+    border: 8px solid #02341d;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .product-summary h2 {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #02341d; /* Dark green */
+    /* Add a transparent bottom border */
+    border-bottom: 2px solid transparent;
+    /* Transition effect to animate the border change */
+    transition: border-bottom-color 0.5s ease;
+}
+
+/* Change the border color to red when hovering */
+.product-summary h2:hover {
+    border-bottom-color: #ff0000; /* Red */
+}
+
+  
+  .product-summary p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333; /* Dark grey */
+  }
+  .product-summary span{
+    font-weight: bold;
+    color: #ff0000;
+  }
+  
+  footer {
+    margin-top: 1%;
+    background-color: #02341d; /* Dark green background */
+    color: #f6640a; /* Orange text color */
+    text-align: center;
+    padding: 20px; /* Add padding for spacing */
+}

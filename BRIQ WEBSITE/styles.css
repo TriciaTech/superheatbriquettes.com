@@ -1,0 +1,316 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header styles */
+  header {
+    position: fixed;
+    bottom: 0;
+  position: relative; 
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+  img {
+    position: absolute; /* Position the logo relative to the header */
+    top: 20px; /* Adjust top positioning as needed */
+    left: 20px; /* Adjust left positioning as needed */
+    z-index: 1; /* Ensure logo appears above background image */
+  }
+
+  nav {
+    position: absolute; /* Position the navigation relative to the header */
+    top: 70px; /* Adjust top positioning as needed */
+    right: 30px; /* Adjust right positioning as needed */
+    z-index: 1; /* Ensure navigation appears above background image */
+    font-size: x-large;
+    font-weight: 300;
+  }
+
+  nav ul {
+    list-style: none;
+  }
+  
+    nav ul li {
+        display: inline;
+        margin-right: 20px; /* Adjust spacing between navigation links as needed */
+      }
+  
+  nav ul li a {
+    color: #02341d; /* Dark green color */
+    font-weight: 900;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #fa722e; /* Orange color */
+    cursor: pointer;
+  }
+  
+  /* Home section styles */
+  #home {
+    position: relative;
+  }
+  
+  .background {
+width: 150vh;
+height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;  /* 20% transparency */
+  }
+  
+  .content {
+    margin-top: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .content h1 {
+    font-size: 3rem;
+  }
+  
+  .orange {
+    color: #cb4b07; /* Orange color */
+  }
+  
+  .smaller {
+    margin-left: 40px;
+    margin-top: 8px;
+    font-size: large;
+    font-style: italic;
+    font-weight: 900;
+    text-decoration-color: black;
+  }
+  
+  .know-more {
+    margin-top: 50px;
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #02341d; /* Dark green color */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .know-more:hover {
+    background-color: #f7671a; /* Orange color */
+  }
+
+
+  /* About section styles */
+  #about {
+    height: 100%;
+    margin-top: 10%;
+    background-color: #02341d; /* Dark green background */
+    color: #f6640a; /* White text color */
+    padding: 50px; /* Padding around the content */
+    text-align: center;
+  }
+  
+  #about h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px; /* Large font size for the heading */
+    margin-bottom: 20px; /* Margin below the heading */
+    opacity: 0; /* Initially set the opacity to 0 to hide the element */
+  transform: translateY(-50px); /* Move the element up by 50px */
+  transition: opacity 0.5s ease-in-out, transform 0.8s ease-in-out; /* Apply transition effect */
+  /* Add a transparent bottom border */
+  border-bottom: 2px solid transparent;
+  /* Transition effect to animate the border change */
+  transition: border-bottom-color 0.5s ease;
+  }
+  #about h1:hover {
+    border-bottom-color: #ff0000; /* Red */
+  }
+  #about h1.show {
+    opacity: 1; /* Show the element by setting opacity to 1 */
+    transform: translateY(0); /* Move the element back to its original position */
+  }
+
+  #about p {
+    font-size: 20px; /* Medium font size for the paragraph */
+    line-height: 1.5; /* Line height for readability */
+  }
+  #about p::first-letter {
+    font-size: 200%; /* Adjust the size of the first letter */
+    font-weight: bold; /* Optionally set the font weight of the first letter */
+  }
+  .know-more {
+    margin-top: 90px;
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #02341d; /* Dark green color */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .know-more:hover {
+    background-color: #f7671a; /* Orange color */
+  }
+  
+
+/*products section styles*/
+#products {
+    height: 100%;
+    margin-top: 1%;
+    background-color: #02341d; /* Dark green background */
+    color: #f6640a; /* White text color */
+    padding: 50px; /* Padding around the content */
+    text-align: center;
+  }
+  
+  #products h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px; /* Large font size for the heading */
+    margin-bottom: 20px; /* Margin below the heading */
+    opacity: 0; /* Initially set the opacity to 0 to hide the element */
+  transform: translateY(-50px); /* Move the element up by 50px */
+  transition: opacity 0.5s ease-in-out, transform 0.8s ease-in-out; /* Apply transition effect */
+  /* Add a transparent bottom border */
+  border-bottom: 2px solid transparent;
+  /* Transition effect to animate the border change */
+  transition: border-bottom-color 0.5s ease;
+  }
+  #products h1:hover {
+    border-bottom-color: #ff0000; /* Red */
+}
+  #products h1.show {
+    opacity: 1; /* Show the element by setting opacity to 1 */
+    transform: translateY(0); /* Move the element back to its original position */
+  }
+
+  #products p {
+    font-size: 20px; /* Medium font size for the paragraph */
+    line-height: 1.5; /* Line height for readability */
+  }
+  #products span{
+    font-weight: bold;
+  }
+  #products p::first-letter {
+    font-size: 200%; /* Adjust the size of the first letter */
+    font-weight: bold; /* Optionally set the font weight of the first letter */
+  }
+  .know-more {
+    margin-top: 90px;
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #02341d; /* Dark green color */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .know-more:hover {
+    background-color: #f7671a; /* Orange color */
+  }
+
+
+/*footer*/
+footer {
+    height: 100%;
+    margin-top: 1%;
+    background-color: #f7671a; /* Orange background color */
+    color: #02341d; /* Dark green text color */
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top {
+    font-size:xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.contact-info {
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contact-info .email,
+.contact-info .phone {
+    margin: 10px 20px;
+}
+
+.contact-info h3 {
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact-info p {
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.contact-info i {
+    font-size: 40px;
+}
+
+.contact-info a {
+    font-weight: bold;
+    color: #02341d; /* Dark green color for links */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth transition for link color */
+}
+
+.contact-info a:hover {
+    color: #02341d; /* Dark green color on hover */
+    text-decoration: underline;
+}
+
+#backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 99;
+}
+
+#backToTopBtn a {
+  display: block;
+  background-color: #f7671a;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: larger;
+  transition: background-color 0.3s;
+}
+
+#backToTopBtn a:hover {
+  background-color: #02341d; /* Dark green on hover */
+}
+
+
+
+
+  
