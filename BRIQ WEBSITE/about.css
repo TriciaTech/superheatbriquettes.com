@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bbfb9d;
+  }
+
+  #about {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  #about h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #340202;
+    transform-style: preserve-3d; /* Enables 3D transformations */
+    transition: transform 1s ease-in-out;
+  }
+  
+  #about h1:hover {
+    transform: rotateY(360deg);
+  }
+  
+  #mission-vision {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mission, .vision {
+    width: 40%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #1b8b04;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .mission:hover, .vision:hover {
+    box-shadow: 0 0 60px rgba(192, 46, 2, 0.5);
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #f7671a;
+  }
+  
+  p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #230202;
+  }
+
+  #purpose all-purpose{
+    width: 100%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container */
+  }
+ /* #purpose all-purpose img{
+    
+  }
+  */
+ #purpose p{
+    text-align: justify;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #230202;
+  }
+  #purpose p::first-letter {
+    font-size: 200%; /* Adjust the size of the first letter */
+    font-weight: bold; /* Optionally set the font weight of the first letter */
+  }
+  .future {
+    width: 100%;
+    height: 90%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ffdf00;
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .purpose .future p{
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #230202;
+  }
+
+  #faqs{
+    margin-top: 50%;
+  }
+  .faqs .qs ul {
+    font-size: large;
+    font-style: italic;
+    font-weight: bold; /* Make text within <ul> tags bold */
+  }
+  
+  .faqs .qs p {
+    text-align: left;
+    font-weight: normal; /* Make text within <p> tags normal */
+  }
+  footer{
+    text-align: center;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    background-color: #9bf77d;
+  }
+
+
+  
